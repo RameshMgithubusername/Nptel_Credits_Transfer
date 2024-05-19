@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotgot Password</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-fuchsia-50">
+    <div class="flex justify-center items-center min-h-screen">
+      <form
+        action=""
+        class="p-8 bg-white-50 shadow-lg shadow-fuchsia-500/100 rounded-lg"
+      >
+        <div class="m-2">
+          <h1
+            class="flex justify-center"
+            style="font-family: nexa; font-size: 40px"
+          >
+            Forgot Password
+          </h1>
+          <div class="m-4">
+            <label class="p-3" style="font-weight: 500">Old Password :</label>
+            <input
+              type="text"
+              class="focus:outline-none w-full px-4 m-2 py-2 shadow-lg rounded-2xl border border-red-300"
+              placeholder="Old Password"
+            />
+          </div>
+          <div class="m-4">
+            <label class="p-3" style="font-weight: 500">New Password : </label>
+            <input
+              type="text"
+              class="focus:outline-none w-full m-2 px-4 py-2 shadow-lg rounded-2xl border border-red-300"
+              placeholder="New Password"
+            />
+          </div>
+          <div class="m-4">
+            <button
+              type="reset"
+              class="flex justify-center bg-blue-600 hover:bg-green-600 rounded-lg text-white py-2 px-8 ml-32 shadow-lg"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
